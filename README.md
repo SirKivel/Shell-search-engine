@@ -2,22 +2,22 @@
 
 ## File and process finder on Linux
 
-For this test, a script in bash is needed to search for a specified process of a file or process within the system.
+The script in bash is will search for a specified process of a file or process within the system.
 
-## Requirements
+## What it does
 
-This script should prompt the user with the options of the search (process or file). Based on the selected search option, some other options must appear accordingly.
+This script prompts the user with the options of the search (process or file). Based on the selected search option.
 
 ## File search
 
-In case a file search is selected these are the expected options:
+In case a file search is selected these are options:
 - Search by name
 - Search by creation date
 - Search by user
 - Search by file extension
 - Search by directory
 
-By default, the search will look in all directories on /home unless it is specified by the Search by directory option. The expected output is the location of the file, size, name, permissions, user, and group.
+By default, the search will look in all directories on /home unless it is specified by the Search by directory option. The output will be the location of the file, size, name, permissions, user, and group.
 
 After this a list of actions that can be performed:
 - Move to the location
@@ -29,7 +29,7 @@ After this a list of actions that can be performed:
 
 ## Process search
 
-In case process search is selected these are the expected options:
+In case process search is selected these are the options:
 - Search by name
 - Search by port
 - Search by id
@@ -43,6 +43,3 @@ After the search is performed a list of actions can be performed:
 - Restart the process
 - Exit
 
-## Bonus
-
-A progress bar of the search.
