@@ -1,4 +1,4 @@
-# GBH Linux administration and bash capacitation
+
 
 ## File and process finder on Linux
 
